@@ -15,7 +15,7 @@ class Lightinga implements Runnable {
          while(i < 4) {
 	    switch(i) {
 	       case 0:   {  
-	      	  System.out.println("\n"+"a=0 ------- Read Light.....");
+	      	  System.out.println("\n"+"a=0 ------- Red Light.....");
 		  Thread.yield();
 		  Thread.sleep(10000);
 		  i++;
@@ -60,7 +60,7 @@ class Lightinga implements Runnable {
          while(i < 4) {
 	    switch(i) {
 	       case 0:   {  
-	      	  System.out.println("b=0 ------> Read Light...."+"\n");
+	      	  System.out.println("b=0 ------> Green Light...."+"\n");
 		  Thread.sleep(10000);
 		  i++;
 		  Thread.yield();
@@ -74,7 +74,7 @@ class Lightinga implements Runnable {
 		  break;	          
 	       }
 	       case 2:    {
-	      	  System.out.println("b=2 ------> Green Light...."+"\n");
+	      	  System.out.println("b=2 ------> Red Light...."+"\n");
 		  Thread.sleep(15000);
 		  i++;
 		  Thread.yield();
